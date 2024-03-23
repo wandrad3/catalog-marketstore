@@ -27,7 +27,7 @@ public class ProductResource {
 	private ProductService service;
 	
 	@GetMapping
-	public ResponseEntity<Page<ProductDTO>> findAll(Pageable pageable	) {
+	public ResponseEntity<Page<ProductDTO>> findAll(Pageable pageable) {
 		
 		// Parametros: page, size, sort
 			
